@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "david.kim@example.com",
+    "days_since_contact": 62,
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "Former colleague, great mentor",
+    "goal": 30,
+    "next_due_date": "Feb 27, 2026"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://i.pravatar.cc/150?img=32",
+    "email": "emma.wilson@example.com",
+    "days_since_contact": 23,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "My cousin who lives in another city and loves catching up over coffee.",
+    "goal": 14,
+    "next_due_date": "Apr 20, 2026"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.pravatar.cc/150?img=47",
+    "email": "lisa.nakamura@example.com",
+    "days_since_contact": 52,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "Met through a conference and still exchange product ideas regularly.",
+    "goal": 21,
+    "next_due_date": "Apr 18, 2026"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://i.pravatar.cc/150?img=59",
+    "email": "james.wright@example.com",
+    "days_since_contact": 82,
+    "status": "overdue",
+    "tags": ["hobby", "travel"],
+    "bio": "Backpacking buddy who is always planning the next trip.",
+    "goal": 30,
+    "next_due_date": "Apr 16, 2026"
+  },
+  {
+    "id": 5,
+    "name": "Sofia Reed",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "email": "sofia.reed@example.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["college"],
+    "bio": "Close university friend who still sends me book recommendations.",
+    "goal": 14,
+    "next_due_date": "Apr 29, 2026"
+  },
+  {
+    "id": 6,
+    "name": "Noah Patel",
+    "picture": "https://i.pravatar.cc/150?img=15",
+    "email": "noah.patel@example.com",
+    "days_since_contact": 19,
+    "status": "almost due",
+    "tags": ["mentor"],
+    "bio": "A mentor figure who gives practical advice about career growth.",
+    "goal": 21,
+    "next_due_date": "Apr 22, 2026"
+  },
+  {
+    "id": 7,
+    "name": "Mia Thompson",
+    "picture": "https://i.pravatar.cc/150?img=20",
+    "email": "mia.thompson@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["friend"],
+    "bio": "Weekend cafe partner who is into photography and journaling.",
+    "goal": 14,
+    "next_due_date": "May 1, 2026"
+  },
+  {
+    "id": 8,
+    "name": "Ethan Brooks",
+    "picture": "https://i.pravatar.cc/150?img=68",
+    "email": "ethan.brooks@example.com",
+    "days_since_contact": 40,
+    "status": "almost due",
+    "tags": ["gym"],
+    "bio": "Workout partner who keeps me motivated to stay consistent.",
+    "goal": 30,
+    "next_due_date": "Apr 24, 2026"
+  },
+  {
+    "id": 9,
+    "name": "Aisha Patel",
+    "picture": "https://i.pravatar.cc/150?img=25",
+    "email": "aisha.patel@example.com",
+    "days_since_contact": 12,
+    "status": "on-track",
+    "tags": ["project", "friend"],
+    "bio": "Creative collaborator who checks in whenever we have a new idea to test.",
+    "goal": 14,
+    "next_due_date": "Apr 30, 2026"
+  },
+  {
+    "id": 10,
+    "name": "Ryan O'Brien",
+    "picture": "https://i.pravatar.cc/150?img=33",
+    "email": "ryan.obrien@example.com",
+    "days_since_contact": 28,
+    "status": "almost due",
+    "tags": ["travel", "friend"],
+    "bio": "Old school friend who now lives abroad but still calls on weekends.",
+    "goal": 21,
+    "next_due_date": "Apr 23, 2026"
+  }
+]
