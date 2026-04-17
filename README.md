@@ -1,16 +1,120 @@
-# React + Vite
+# KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a React-based web application designed to manage and track personal relationships. It provides tools to organize contacts, record interactions, and analyze engagement patterns over time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+* GitHub Pages: [https://galibdev.github.io/keen-keeper/](https://galibdev.github.io/keen-keeper/)
+* Netlify: [https://voluble-dasik-5510bd.netlify.app/](https://voluble-dasik-5510bd.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Interaction timeline (Call, Text, Meetup, Video)
+* Friendship analytics with chart visualization
+* Basic friend management
+* Timeline filtering
+* Fast development with Vite and React
+* Styling with Tailwind CSS
+
+---
+
+## Technology Stack
+
+* React
+* React Router
+* Vite
+* Tailwind CSS
+* Chart library (e.g., Chart.js or Recharts)
+
+---
+
+## Project Structure
+
+```
+src/
+  components/
+  contexts/
+  layouts/
+  pages/
+  routes/
+  assets/
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/GalibDev/keen-keeper.git
+cd keen-keeper
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## Deployment
+
+For Netlify deployment, create a `netlify.toml` file in the root directory:
+
+```toml
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+This configuration ensures proper routing when using React Router.
+
+---
+
+## Future Improvements
+
+* Authentication system
+* Database integration (e.g., Firebase or MongoDB)
+* Real-time updates
+* Enhanced mobile responsiveness
+
+---
+
+## Author
+
+GitHub: [https://github.com/GalibDev](https://github.com/GalibDev)
+
+---
+
+## License
+
+This project is intended for educational purposes.
