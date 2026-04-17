@@ -11,13 +11,23 @@ const Home = () => {
   const { entries } = useTimeline();
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}friends.json`)
-      .then((res) => res.json())
+    const url = `${import.meta.env.BASE_URL}friends.json`;
+
+    fetch(url)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`Failed to fetch: ${res.status}`);
+        }
+        return res.json();
+      })
       .then((data) => {
         setFriends(data);
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch((error) => {
+        console.error("Friends fetch error:", error);
+        setLoading(false);
+      });
   }, []);
 
   const totalFriends = friends.length;
