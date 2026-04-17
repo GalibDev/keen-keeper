@@ -11,7 +11,7 @@ const Home = () => {
   const { entries } = useTimeline();
 
   useEffect(() => {
-    fetch("/friends.json")
+    fetch(`${import.meta.env.BASE_URL}friends.json`)
       .then((res) => res.json())
       .then((data) => {
         setFriends(data);
